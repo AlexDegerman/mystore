@@ -1,6 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-
 import { products } from '../products';
+import {
+  faFacebookF,
+  faTwitterSquare,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons';
+
+import { CartService } from '../cart.service';
 
 @Component({
   selector: 'app-product-list',
@@ -8,7 +14,15 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css'],
 })
 export class ProductListComponent implements OnInit {
+  faFacebookF = faFacebookF;
+  faTwitterSquare = faTwitterSquare;
+  faInstagram = faInstagram;
+
   products = products;
+  items: any;
+  product: any;
+
+  constructor(private cartService: CartService) {}
 
   share() {
     window.alert('The product has been shared!');
@@ -18,7 +32,12 @@ export class ProductListComponent implements OnInit {
     window.alert('You will be notified when the product goes on sale');
   }
 
-  constructor() {}
+  addToCart(product: any) {
+    window.alert('Your product has been added to the cart!');
+    this.cartService.addToCart(product);
+  }
 
-  ngOnInit(): void {}
+  ngOnInit() {
+    // console.log(this.products);
+  }
 }
