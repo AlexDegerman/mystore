@@ -1,10 +1,16 @@
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #fff;
+  color: #E8AB84;
   text-decoration: none;
   font-size: 1.5rem;
 }
-
+.tm {
+  font-size: 70%;
+  padding-left: 6px;
+  position: relative;
+  top: -7px;
+  
+}
 h2:hover{
 opacity: 0.7;
 }
@@ -12,7 +18,18 @@ opacity: 0.7;
 fa-icon {
   padding-right: 5px;
 }
-
+.cont {
+  padding-bottom: 1.5rem;
+}
 a {
   cursor: pointer;
+}
+.bottom {
+  position: relative;
+  top: 13px;
+}
+.btn-outline-primary {
+  color: #A52A2A !important;
+  border-color: #A52A2A !important;
+  background-color: #F5DEB3 !important;
 }

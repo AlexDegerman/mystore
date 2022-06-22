@@ -1,0 +1,12 @@
+div {
+  font-family: 'Montserrat', sans-serif;
+  color: #E8AB84;
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #A52A2A;
+  padding-top: 2rem;
+}
+p {
+  position: relative;
+  top: -0px;
+}

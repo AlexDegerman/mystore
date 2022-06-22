@@ -1,14 +1,53 @@
-h2{
-  background-color: #f2f2f2;
-  padding: 8px 0;
-  color: #1976D2;
+p:hover {
+  cursor: pointer;
 }
-
-p:hover{
-cursor: pointer;
+.buynow {
+  background-color: #1ea5ba;
+  color: white;
 }
-
-.price{
-  font-weight:700;
+.share {
+  background-color: #0079ff;
+  color: white;
+}
+p {
+  padding-left: 0.5rem;
+}
+.image {
+  height: 250px;
+  margin-left: -2rem;
+}
+.cnter {
+  width: 300px;
+  height: 200px;
+  margin-right: 1rem;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.flex > * {
+  flex-basis: 30%;
+}
+h3 {
+  font-size: 1rem !important;
+  padding-left: 0.5rem;
+}
+.border {
+  border: 1px solid grey !important;
+  border-radius: 1rem;
+  border-bottom-height: 1rem;
+}
+.price {
+  font-weight: 700;
   margin-top: -20px;
+}
+.red {
+  color: #a52a2a;
+  text-decoration: none;
+}
+.container {
+  padding-left: 0rem !important;
+}
+.buttons {
+  padding-left: 0.5rem;
 }

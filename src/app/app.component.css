@@ -1,3 +1,7 @@
 p {
   font-family: Lato;
 }
+app-bottom-bar {
+  position: relative;
+  top: 350px;
+}

@@ -14,6 +14,7 @@ import { ShippingComponent } from './shipping/shipping.component';
 import { BackbtnComponent } from './backbtn/backbtn.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BackButtonDirective } from './back-button.directive';
+import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BackButtonDirective } from './back-button.directive';
     CartComponent,
     ShippingComponent,
     BackbtnComponent,
-    BackButtonDirective
+    BackButtonDirective,
+    BottomBarComponent
   ],
   imports: [
     BrowserModule,

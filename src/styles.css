@@ -9,9 +9,8 @@ h1,h2,h3,h4,h5,h6{
 }
 p {
   font-family: 'Open Sans', sans-serif;
-  padding: 10px;
+  
 }
-
 btn-primary {
   background-color: #1976D2 !important;
 }
