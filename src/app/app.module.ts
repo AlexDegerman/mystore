@@ -11,6 +11,8 @@ import { CartService } from './cart.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
+import { BackbtnComponent } from './backbtn/backbtn.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { ShippingComponent } from './shipping/shipping.component';
     ProductAlertsComponent,
     ProductDetailsComponent,
     CartComponent,
-    ShippingComponent
+    ShippingComponent,
+    BackbtnComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +34,8 @@ import { ShippingComponent } from './shipping/shipping.component';
       { path: 'products/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent }
-    ])
+    ]),
+    FontAwesomeModule
   ],
   providers: [CartService],
   bootstrap: [AppComponent]
