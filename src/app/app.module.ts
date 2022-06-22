@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ShippingComponent } from './shipping/shipping.component';
 import { BackbtnComponent } from './backbtn/backbtn.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BackButtonDirective } from './back-button.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProductDetailsComponent,
     CartComponent,
     ShippingComponent,
-    BackbtnComponent
+    BackbtnComponent,
+    BackButtonDirective
   ],
   imports: [
     BrowserModule,
